@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1000 #@param{type: 'number'}
-width_height = [1920, 1080]#@param{type: 'raw'}
+steps = 500 #@param{type: 'number'}
+width_height = [900, 900]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1137,7 +1137,7 @@ tv_scale =  150#@param{type: 'number'}
 range_scale =   255#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 1  #@param{type: 'number'}
+cutn_batches = 4  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "A watercolor of a small boat in a storm in the middle of the ocean by greg rutkowski and thomas kinkade, trending on artstation."
+    "A beautiful 3D illustration about a waterfall, dystopian nature with droids and robots at sunset. Lots of nature. Trending on Artstation."
 ]
 
 image_prompts = [ #currently disabled
@@ -1242,8 +1242,8 @@ image_prompts = [ #currently disabled
 # %%
 #@title Do the Run!
 
-display_rate =  50#@param{type: 'number'}
-n_batches =  1#@param{type: 'number'}
+display_rate = 50#@param{type: 'number'}
+n_batches =  10#@param{type: 'number'}
 batch_size = 1
 
 batchNum = len(glob(batchFolder+"/*.txt"))
