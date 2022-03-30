@@ -1181,7 +1181,7 @@ createPath(batchFolder)
 # %%
 #@markdown ####**Saving:**
 
-intermediate_saves = 10#@param{type: 'raw'}
+intermediate_saves = 5#@param{type: 'raw'}
 intermediates_in_subfolder = True #@param{type: 'boolean'}
 #@markdown Intermediate steps will save a copy at your specified intervals. You can either format it as a single integer or a list of specific steps 
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "A beautiful 3D illustration about a waterfall, dystopian nature with droids and robots at sunset. Lots of nature. Trending on Artstation."
+    "A beautiful 3D matte painting about a misty, ancient Istanbul, lightly raining in the day. invisible alien spaceships. Trending on Artstation."
 ]
 
 image_prompts = [ #currently disabled
