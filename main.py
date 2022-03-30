@@ -12,7 +12,7 @@
 # --
 # 
 # I, Somnai (https://twitter.com/Somnai_dreams), have made QoL improvements and assorted implementations, mostly listed in the changelog below.
-# tj
+# my test
 
 # %%
 #@title <- View Disco Changelog
@@ -947,7 +947,7 @@ use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = False #@param{type:"boolean"}
-RN50 = False  #@param{type:"boolean"}
+RN50 = False #@param{type:"boolean"}
 RN50x4 = False #@param{type:"boolean"}
 RN50x16 = False #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 600 #@param{type: 'number'}
-width_height = [700,700]#@param{type: 'raw'}
+steps = 1000 #@param{type: 'number'}
+width_height = [1920, 1080]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1137,7 +1137,7 @@ tv_scale =  150#@param{type: 'number'}
 range_scale =   255#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 50  #@param{type: 'number'}
+cutn_batches = 1  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1181,7 +1181,7 @@ createPath(batchFolder)
 # %%
 #@markdown ####**Saving:**
 
-intermediate_saves = 10#@param{type: 'raw'}
+intermediate_saves = [*range(0,steps,1)]#@param{type: 'raw'}
 intermediates_in_subfolder = True #@param{type: 'boolean'}
 #@markdown Intermediate steps will save a copy at your specified intervals. You can either format it as a single integer or a list of specific steps 
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "A beautiful 3D illustration about a futuristic, dystopian street with police droids and robots on mars. Lot of neons. Trending on Artstation."
+    "A watercolor of a small boat in a storm in the middle of the ocean by greg rutkowski and thomas kinkade, trending on artstation."
 ]
 
 image_prompts = [ #currently disabled
@@ -1244,7 +1244,7 @@ image_prompts = [ #currently disabled
 
 display_rate =  50#@param{type: 'number'}
 n_batches =  1#@param{type: 'number'}
-batch_size = 10
+batch_size = 1
 
 batchNum = len(glob(batchFolder+"/*.txt"))
 
@@ -1278,4 +1278,5 @@ finally:
     print('Seed used:', seed)
     gc.collect()
     torch.cuda.empty_cache()
+
 
