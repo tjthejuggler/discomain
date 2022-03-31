@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "schizophrenia, asylum art"
+    "mad world, asylum art"
 ]
 
 image_prompts = [ #currently disabled
