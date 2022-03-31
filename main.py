@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "Timmy has a visitor by Zdzisław Beksiński. Featured on DeviantArt"
+    "schizophrenia, asylum art"
 ]
 
 image_prompts = [ #currently disabled
