@@ -949,7 +949,7 @@ ViTB16 = True #@param{type:"boolean"}
 RN101 = False #@param{type:"boolean"}
 RN50 = False #@param{type:"boolean"}
 RN50x4 = False #@param{type:"boolean"}
-RN50x16 = False #@param{type:"boolean"}
+RN50x16 = True #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
 
@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 500 #@param{type: 'number'}
-width_height = [2000, 2000]#@param{type: 'raw'}
+steps = 1500 #@param{type: 'number'}
+width_height = [1080, 1080]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "A beautiful picture of Paris being attacked by Godzilla. Sky view. Trending on Artstation."
+    "closeup of man juggling neon balls. Set on the stage of a circus with an audience. Featured on DeviantArt"
 ]
 
 image_prompts = [ #currently disabled
