@@ -948,8 +948,8 @@ ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = False #@param{type:"boolean"}
 RN50 = False #@param{type:"boolean"}
-RN50x4 = False #@param{type:"boolean"}
-RN50x16 = True #@param{type:"boolean"}
+RN50x4 = True #@param{type:"boolean"}
+RN50x16 = False #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
 
@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1500 #@param{type: 'number'}
+steps = 700 #@param{type: 'number'}
 width_height = [1080, 1080]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1137,7 +1137,7 @@ tv_scale =  150#@param{type: 'number'}
 range_scale =   255#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 24  #@param{type: 'number'}
+cutn_batches = 6  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "closeup of man juggling neon balls. Set on the stage of a circus with an audience. Featured on DeviantArt"
+    "Timmy has a visitor by Zdzisław Beksiński. Featured on DeviantArt"
 ]
 
 image_prompts = [ #currently disabled
