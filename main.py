@@ -1137,7 +1137,7 @@ tv_scale =  150#@param{type: 'number'}
 range_scale =   255#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 4  #@param{type: 'number'}
+cutn_batches = 24  #@param{type: 'number'}
 
 #@markdown ---
 
