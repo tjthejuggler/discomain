@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "A beautiful picture of Paris being attacked by Godzilla. Sky view. Trending on Artstation."
+    "A beautiful picture of Paris being attacked by Godzilla. Trending on Artstation."
 ]
 
 image_prompts = [ #currently disabled
