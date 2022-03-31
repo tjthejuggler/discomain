@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 500 #@param{type: 'number'}
-width_height = [2000, 2000]#@param{type: 'raw'}
+steps = 1500 #@param{type: 'number'}
+width_height = [1080, 1080]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1137,7 +1137,7 @@ tv_scale =  150#@param{type: 'number'}
 range_scale =   255#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 4  #@param{type: 'number'}
+cutn_batches = 24  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "A beautiful picture of Paris being attacked by Godzilla. Trending on Artstation."
+    "A beautiful picture of a juggler. Trending on Artstation."
 ]
 
 image_prompts = [ #currently disabled
