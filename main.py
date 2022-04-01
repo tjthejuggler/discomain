@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1600 #@param{type: 'number'}
+steps = 800 #@param{type: 'number'}
 width_height = [1200, 800]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "erupting volcanoes and flying rockets by Zdzisław Beksiński"
+    "erupting volcanoes and flying rockets by Tyler Edline"
 ]
 
 image_prompts = [ #currently disabled
