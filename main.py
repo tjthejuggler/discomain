@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "erupting volcanoes and flying rockets by Tyler Edline"
+    "A beautiful 3D matte painting about a volcano, rocket ships soaring through the sky. Surrounded by vlocanoes and clouds and fog. Trending on Artstation."
 ]
 
 image_prompts = [ #currently disabled
