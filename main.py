@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "Washington Square by Zdzisław Beksiński, lots of neon"
+    "Union Square NYC by Zdzisław Beksiński"
 ]
 
 image_prompts = [ #currently disabled
