@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 700 #@param{type: 'number'}
-width_height = [1080, 1080]#@param{type: 'raw'}
+steps = 400 #@param{type: 'number'}
+width_height = [800, 800]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "koi fish, inside of, tall glass cup, filled with water, featured on Arts DeviantArt"
+    "beautiful image of people sliding out of a giant asshole, in nature"
 ]
 
 image_prompts = [ #currently disabled
