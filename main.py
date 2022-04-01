@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "a portal to the Zdzisław Beksiński dimension. a beautiful matte painting by michael whelan. Trending on Artstation."
+    "A beautiful render of a sphere made of wicker woven with brambles and bones by Ivan Shishkin, sickly roses grow near the sphere, unbelievably detailed and creepy"
 ]
 
 image_prompts = [ #currently disabled
