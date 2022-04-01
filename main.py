@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "Ocean in a cup, tall glass, blue shift, ice island, space, smooth, cream"
+    "koi fish, inside of, tall glass cup, filled with water, featured on Arts DeviantArt"
 ]
 
 image_prompts = [ #currently disabled
