@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 800 #@param{type: 'number'}
-width_height = [1200, 800]#@param{type: 'raw'}
+steps = 600 #@param{type: 'number'}
+width_height = [1000, 700]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "A beautiful 3D matte painting about a huge rocket penetrating a volcano, future scifi planets night sky. By Zdzisław Beksiński. Trending on Artstation."
+    "a portal to the Zdzisław Beksiński dimension. a beautiful matte painting by michael whelan. Trending on Artstation."
 ]
 
 image_prompts = [ #currently disabled
