@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "A beautiful 3D matte painting about a volcano, rocket ships soaring through the sky. Surrounded by vlocanoes and clouds and fog. Trending on Artstation."
+    "A beautiful 3D matte painting about a huge rocket penetrating a volcano, future scifi planets night sky. By Zdzisław Beksiński. Trending on Artstation."
 ]
 
 image_prompts = [ #currently disabled
