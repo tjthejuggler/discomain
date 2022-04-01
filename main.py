@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "mad world, asylum art"
+    "Ocean in a cup, tall glass, blue shift, ice island, space, smooth, cream"
 ]
 
 image_prompts = [ #currently disabled
