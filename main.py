@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "beautiful image of people sliding out of a giant asshole, in nature, by Zdzisław Beksiński"
+    "Washington Square by Zdzisław Beksiński, lots of neon"
 ]
 
 image_prompts = [ #currently disabled
