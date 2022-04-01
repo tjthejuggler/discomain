@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "Union Square NYC by Zdzisław Beksiński"
+    "The Cool-Aid man, atom bomb in the distance, in the style of Zdzisław Beksiński"
 ]
 
 image_prompts = [ #currently disabled
