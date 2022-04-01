@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "A beautiful render of a sphere made of wicker woven with brambles and bones by Ivan Shishkin, sickly roses grow near the sphere, unbelievably detailed and creepy"
+    "Hubble deep field beach sand in the style of Tyler Edline and Zdzisław Beksiński."
 ]
 
 image_prompts = [ #currently disabled
