@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "The Cool-Aid man, atom bomb in the distance, in the style of Zdzisław Beksiński"
+    "pinching hand emoji, made of stone, set in mountains, beautiful, trending on deviantArt"
 ]
 
 image_prompts = [ #currently disabled
