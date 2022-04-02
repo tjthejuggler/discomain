@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 300  #@param{type: 'number'}
-width_height = [600, 400]#@param{type: 'raw'}
+steps = 600  #@param{type: 'number'}
+width_height = [800, 600]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "a stunning surreal 3d portrait closeup, fractals meld face to background, by Peter Gric"
+    "stunning 3D surreal detailed, by Peter Gric and Alexander Jansson, fractal"
 ]
 
 image_prompts = [ #currently disabled
