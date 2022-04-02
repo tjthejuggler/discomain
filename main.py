@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "stunning 3D surreal detailed, by Peter Gric and Alexander Jansson, fractal"
+    "huge nasty chess pawn monster, monster eating chess pieces, set on checkered ground, hands in the sky, by Brian Froud and Wendy Froud, stunning 3D surreal detailed"
 ]
 
 image_prompts = [ #currently disabled
