@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 800  #@param{type: 'number'}
+steps = 1500  #@param{type: 'number'}
 width_height = [1000, 700]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "a world where everything is miniature, by Jim Burns"
+    "a stunning utopian VR world where everything is miniature and surreal, by Jim Burns"
 ]
 
 image_prompts = [ #currently disabled
