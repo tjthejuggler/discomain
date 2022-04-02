@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "nasty pawn monster, set on checkered ground, hands in the sky, by Brian Froud and Wendy Froud, stunning 3D surreal detailed"
+    "a beautiful calm girl, between tidal waves and forest fires, matte painting by greg rutkowski and thomas kinkade, trending on artstation"
 ]
 
 image_prompts = [ #currently disabled
