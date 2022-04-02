@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    ["happy family eating at the dinner table:2","robots squirting food to happy family:1"]
+    "happy family eating at the dinner table:2","robots squirting food to happy family:1"
 ]
 
 image_prompts = [ #currently disabled
