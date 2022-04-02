@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "a happy family eating at the dinner table while robots squirt food into their mouths"
+    "a small remote tropical island, it is raining large eyeballs, surrounded by shark infested water, in the style of Tyler Edline and Igor Morski"
 ]
 
 image_prompts = [ #currently disabled
