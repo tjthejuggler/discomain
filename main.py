@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1500  #@param{type: 'number'}
-width_height = [1000, 700]#@param{type: 'raw'}
+steps = 300  #@param{type: 'number'}
+width_height = [600, 400]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "a stunning utopian VR world where everything is miniature and surreal, by Jim Burns"
+    "a stunning surreal 3d portrait closeup, fractals meld face to background, by Peter Gric"
 ]
 
 image_prompts = [ #currently disabled
