@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 600 #@param{type: 'number'}
-width_height = [1000, 700]#@param{type: 'raw'}
+steps = 1600 #@param{type: 'number'}
+width_height = [2000, 1600]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "Hubble deep field beach sand in the style of Tyler Edline and Zdzisław Beksiński."
+    "Ronald McDonald with bills cash money rich by Zdzisław Beksiński, lots of McDonalds commercials marketing billboards advertisements"
 ]
 
 image_prompts = [ #currently disabled
