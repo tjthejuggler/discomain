@@ -944,12 +944,12 @@ use_secondary_model = True #@param {type: 'boolean'}
 timestep_respacing = 'ddim1000' # param ['25','50','100','150','250','500','1000','ddim25','ddim50', 'ddim75', 'ddim100','ddim150','ddim250','ddim500','ddim1000']  
 diffusion_steps = 1000 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
-ViTB32 = True #@param{type:"boolean"}
-ViTB16 = True #@param{type:"boolean"}
-RN101 = False #@param{type:"boolean"}
-RN50 = False #@param{type:"boolean"}
-RN50x4 = False #@param{type:"boolean"}
-RN50x16 = True #@param{type:"boolean"}
+ViTB32 = False #@param{type:"boolean"}
+ViTB16 = False #@param{type:"boolean"}
+RN101 = True #@param{type:"boolean"}
+RN50 = True #@param{type:"boolean"}
+RN50x4 = True #@param{type:"boolean"}
+RN50x16 = False #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "huge nasty chess pawn monster, monster eating chess pieces, set on checkered ground, hands in the sky, by Brian Froud and Wendy Froud, stunning 3D surreal detailed"
+    "nasty pawn monster, set on checkered ground, hands in the sky, by Brian Froud and Wendy Froud, stunning 3D surreal detailed"
 ]
 
 image_prompts = [ #currently disabled
