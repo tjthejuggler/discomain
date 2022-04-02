@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "a small remote tropical island, it is raining large eyeballs, surrounded by shark infested water, in the style of Tyler Edline and Igor Morski"
+    "a small remote tropical island, raining many eyeballs, in the style of Tyler Edline"
 ]
 
 image_prompts = [ #currently disabled
