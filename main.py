@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "a world where everything is miniature, by Jim Burn"
+    "a world where everything is miniature, by Jim Burns"
 ]
 
 image_prompts = [ #currently disabled
