@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1400  #@param{type: 'number'}
+steps = 720  #@param{type: 'number'}
 width_height = [1200, 800]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "A complex intricate VR 3D futuristic painting of an endless underground city, steampunk airships fill the air, lots of neon, trending on Artstation Deviantart"
+    "uncomfortable child juggling glowing ballsby Igor Morski:2","Asylum Art:1"
 ]
 
 image_prompts = [ #currently disabled
