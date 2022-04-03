@@ -944,11 +944,11 @@ use_secondary_model = True #@param {type: 'boolean'}
 timestep_respacing = 'ddim1000' # param ['25','50','100','150','250','500','1000','ddim25','ddim50', 'ddim75', 'ddim100','ddim150','ddim250','ddim500','ddim1000']  
 diffusion_steps = 1000 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
-ViTB32 = False #@param{type:"boolean"}
-ViTB16 = False #@param{type:"boolean"}
-RN101 = True #@param{type:"boolean"}
+ViTB32 = True #@param{type:"boolean"}
+ViTB16 = True #@param{type:"boolean"}
+RN101 = False #@param{type:"boolean"}
 RN50 = True #@param{type:"boolean"}
-RN50x4 = True #@param{type:"boolean"}
+RN50x4 = False #@param{type:"boolean"}
 RN50x16 = False #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 600  #@param{type: 'number'}
-width_height = [800, 600]#@param{type: 'raw'}
+steps = 1400  #@param{type: 'number'}
+width_height = [1200, 800]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "a small remote tropical island, raining many eyeballs, in the style of Tyler Edline"
+    "A complex intricate VR 3D futuristic painting of an endless underground city, steampunk airships fill the air, lots of neon, trending on Artstation Deviantart"
 ]
 
 image_prompts = [ #currently disabled
