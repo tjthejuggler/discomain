@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "3D VR mantis alien with human pets by Jim Burns and Igor Morski:2","Asylum Art:1"
+    "detailed where's Waldo page by Jim Burns and Igor Morski:2","Tyler Edline:3"
 ]
 
 image_prompts = [ #currently disabled
