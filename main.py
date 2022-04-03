@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "uncomfortable child juggling glowing ballsby Igor Morski:2","Asylum Art:1"
+    "3D VR mantis alien with human pets by Jim Burns and Igor Morski:2","Asylum Art:1"
 ]
 
 image_prompts = [ #currently disabled
