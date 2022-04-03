@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "People stuffed into clear boxes:3","boxes are piled up:2","by Edward Burne-Jones and Igor Morski:1","Alexander Jansson:3","joy, happy, fun:-2"
+    "people trapped inside teddy pear eyeballs:3", "teddy bears have large eyeballs:3", "magic realism:2", "by Jeff Easley and Jim Burns and Walt Disney:1", "joy, happy, fun:-2"
 ]
 
 image_prompts = [ #currently disabled
