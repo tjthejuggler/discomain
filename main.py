@@ -948,7 +948,7 @@ ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = False #@param{type:"boolean"}
 RN50 = True #@param{type:"boolean"}
-RN50x4 = False #@param{type:"boolean"}
+RN50x4 = True #@param{type:"boolean"}
 RN50x16 = True #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 720  #@param{type: 'number'}
+steps = 1720  #@param{type: 'number'}
 width_height = [1920, 1080]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "People stuffed into clear spheres:3","spheres are piled up:2","by Edward Burne-Jones and Igor Morski:1","Alexander Jansson:3","joy, happy, fun:-2"
+    "People stuffed into clear boxes:3","boxes are piled up:2","by Edward Burne-Jones and Igor Morski:1","Alexander Jansson:3","joy, happy, fun:-2"
 ]
 
 image_prompts = [ #currently disabled
