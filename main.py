@@ -948,8 +948,8 @@ ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = False #@param{type:"boolean"}
 RN50 = True #@param{type:"boolean"}
-RN50x4 = True #@param{type:"boolean"}
-RN50x16 = True #@param{type:"boolean"}
+RN50x4 = False #@param{type:"boolean"}
+RN50x16 = False #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
 
@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1720  #@param{type: 'number'}
-width_height = [1920, 1080]#@param{type: 'raw'}
+steps = 500  #@param{type: 'number'}
+width_height = [1270, 800]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "people trapped inside teddy pear eyeballs:3", "teddy bears have large eyeballs:3", "magic realism:2", "by Jeff Easley and Jim Burns and Walt Disney:1", "joy, happy, fun:-2"
+    "image generating AI"
 ]
 
 image_prompts = [ #currently disabled
