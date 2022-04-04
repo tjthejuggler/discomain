@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 400  #@param{type: 'number'}
+steps = 550  #@param{type: 'number'}
 width_height = [1200, 900]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,10 +1229,11 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "adorable baby grim reaper cyborg eating pizza:5",
-    "by Hans Bellmer:3",
-    "gothic art:2",
-    "by Brian Froud:2"
+            "adorable robot baby grim reaper:3",
+            "baby is eating pizza",
+            "gothic art:2",
+            "Jim Burns:1",
+            "Beeple:3"
 ]
 
 image_prompts = [ #currently disabled
@@ -1245,7 +1246,7 @@ image_prompts = [ #currently disabled
 # %%
 #@title Do the Run!
 
-display_rate = 50#@param{type: 'number'}
+display_rate = 500#@param{type: 'number'}
 n_batches =  10#@param{type: 'number'}
 batch_size = 1
 
