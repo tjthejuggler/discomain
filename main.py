@@ -1229,11 +1229,11 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-                      "trees are baby arms:4",
-            "in a forest of baby arm trees:3",
-            "by Tyler Edline:2",
-            "by Alexander Jansson:2",
-            "ray tracing with unreal engine:3"
+                         "People stuffed into glass ball:3",
+            "octopus with glass ball head:3",
+            "by Edward Burne-Jones and Igor Morski:1",
+            "Alexander Jansson:3",
+            "joy, happy, fun:-2"
 ]
 
 image_prompts = [ #currently disabled
