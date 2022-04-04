@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 500  #@param{type: 'number'}
+steps = 600  #@param{type: 'number'}
 width_height = [1270, 800]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "galactic geode planet with thick black waterfall, a stunning surrealism realisism matte painting, featured on artstation"
+    "metalic alien planet with ocean hurricane:3", "galaxy in the distance:2", "neon colored ocean:2", "surrealism realisism matte painting", "featured on artstation:1"
 ]
 
 image_prompts = [ #currently disabled
