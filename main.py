@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "giant mythical alien butterfly creatures, on a foreign metal planet, deadly tornado in the sky, featured on Deviantart, trending on Artstation"
+    "giant mythical alien butterfly spaceship creatures, on alien metalic landscape, featured on Deviantart, trending on Artstation"
 ]
 
 image_prompts = [ #currently disabled
