@@ -1229,11 +1229,11 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-            "adorable robot baby grim reaper:3",
-            "baby is eating pizza",
-            "gothic art:2",
-            "Jim Burns:1",
-            "Beeple:3"
+                      "trees made from baby arms:3",
+            "in a forest of baby arm trees:3",
+            "by Tyler Edline:2",
+            "Alexander Jansson:2",
+            "ultrarealistic:2"
 ]
 
 image_prompts = [ #currently disabled
