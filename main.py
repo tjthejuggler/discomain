@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "gestalt effect"
+    "two glasses, gestalt effect"
 ]
 
 image_prompts = [ #currently disabled
