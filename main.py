@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 400  #@param{type: 'number'}
-width_height = [800, 800]#@param{type: 'raw'}
+steps = 450  #@param{type: 'number'}
+width_height = [1200, 900]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "The Cool-Aid man, atom bomb in the distance, in the style of Zdzisław Beksiński"
+    "vulnerable adorable baby:4","baby with malicious entity:3", "in the style of Tim Burton:3","Nvidia:3"
 ]
 
 image_prompts = [ #currently disabled
