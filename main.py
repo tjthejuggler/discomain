@@ -946,7 +946,7 @@ diffusion_steps = 1000 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
-RN101 = False #@param{type:"boolean"}
+RN101 = True #@param{type:"boolean"}
 RN50 = True #@param{type:"boolean"}
 RN50x4 = False #@param{type:"boolean"}
 RN50x16 = False #@param{type:"boolean"}
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "giant mythical alien butterfly spaceship creatures, on alien metalic landscape, featured on Deviantart, trending on Artstation"
+    "an endless underground city:4","A complex intricate VR 3D futuristic city:3", "lots of neon advertisements:2", "trending on Artstation:2", "featured on Deviantart:2"
 ]
 
 image_prompts = [ #currently disabled
