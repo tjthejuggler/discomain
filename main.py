@@ -1229,7 +1229,10 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "two glasses, gestalt effect"
+    "adorable baby grim reaper cyborg eating pizza:5",
+    "by Hans Bellmer:3",
+    "gothic art:2",
+    "by Brian Froud:2"
 ]
 
 image_prompts = [ #currently disabled
