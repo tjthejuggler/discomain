@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "photo-realistic erect penis with legs and tail:3", "in beautiful meadow with distant towering mountains:2", "featured on artstation:2", "by Tyler Edline:3"
+    "mythical alien creatures, on a foreign metal planet, deadly tornado in the sky, featured on Deviantart, trending on Artstation"
 ]
 
 image_prompts = [ #currently disabled
