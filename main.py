@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "metalic alien planet with ocean hurricane:3", "galaxy in the distance:2", "neon colored ocean:2", "surrealism realisism matte painting", "featured on artstation:1"
+    "beautiful metalic planet landscape with tornado:3", "background is a galaxy sky:2", "dull neon colored water:2", "surrealism realisism:3", "featured on artstation:2"
 ]
 
 image_prompts = [ #currently disabled
