@@ -946,9 +946,9 @@ diffusion_steps = 1000 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
-RN101 = True #@param{type:"boolean"}
-RN50 = True #@param{type:"boolean"}
-RN50x4 = False #@param{type:"boolean"}
+RN101 = False #@param{type:"boolean"}
+RN50 = False #@param{type:"boolean"}
+RN50x4 = True #@param{type:"boolean"}
 RN50x16 = False #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 600  #@param{type: 'number'}
-width_height = [1270, 800]#@param{type: 'raw'}
+steps = 400  #@param{type: 'number'}
+width_height = [800, 800]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1150,7 +1150,7 @@ skip_timesteps = 0  #@param{type: 'number'}
 
 cut_overview = [35]*400+[5]*600     #Format: 40 cuts for the first 400 /1000 steps, then 20 for the last 600/1000
 cut_innercut =[5]*400+[35]*600
-cut_ic_pow = 1
+cut_ic_pow = 30
 cut_icgray_p = [0.2]*400+[0]*900
 
 if init_image == '':
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "an endless underground city:4","A complex intricate VR 3D futuristic city:3", "lots of neon advertisements:2", "trending on Artstation:2", "featured on Deviantart:2"
+    "The Cool-Aid man, atom bomb in the distance, in the style of Zdzisław Beksiński"
 ]
 
 image_prompts = [ #currently disabled
