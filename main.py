@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "erect penis with four legs and a tail:3", "beautiful meadow with mountains in the background:2", "featured on artstation:2"
+    "photo-realistic erect penis with legs and tail:3", "in beautiful meadow with distant towering mountains:2", "featured on artstation:2", "by Tyler Edline:3"
 ]
 
 image_prompts = [ #currently disabled
