@@ -947,8 +947,8 @@ use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = False #@param{type:"boolean"}
-RN50 = False #@param{type:"boolean"}
-RN50x4 = True #@param{type:"boolean"}
+RN50 = True #@param{type:"boolean"}
+RN50x4 = False #@param{type:"boolean"}
 RN50x16 = False #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 450  #@param{type: 'number'}
+steps = 400  #@param{type: 'number'}
 width_height = [1200, 900]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "vulnerable adorable baby:4","baby with malicious entity:3", "in the style of Tim Burton:3","Nvidia:3"
+    "gestalt effect"
 ]
 
 image_prompts = [ #currently disabled
