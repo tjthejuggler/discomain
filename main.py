@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-    "beautiful metalic planet landscape with tornado:3", "background is a galaxy sky:2", "dull neon colored water:2", "surrealism realisism:3", "featured on artstation:2"
+    "penis and balls with four legs and a tail:3", "beautiful meadow with mountains in the background:2", "featured on artstation:2"
 ]
 
 image_prompts = [ #currently disabled
