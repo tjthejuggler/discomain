@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 550  #@param{type: 'number'}
+steps = 850  #@param{type: 'number'}
 width_height = [1280, 768]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,8 +1229,12 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-             "cute babies stuffed into glass balls:3",
-        "adorable baby octopus plays with bubbles:5",
+        "Beautiful rendering of a complex microscopic microbial wonderland:4",
+        "lots of neon:3",
+        "there are living creatures:4",
+         "by James Paick:8",
+         "by Alejandro Burdisio:5",
+         "ray tracing with unreal engine:3",
         "by Edward Burne-Jones and Igor Morski:1",
         "Alexander Jansson:3"
 ]
