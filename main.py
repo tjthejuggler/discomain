@@ -1145,7 +1145,7 @@ cutn_batches = 4  #@param{type: 'number'}
 
 init_image = '' #@param{type: 'string'}
 init_scale =   0#@param{type: 'number'}
-skip_timesteps = 0  #@param{type: 'number'}
+skip_timesteps = int(steps/10)  #@param{type: 'number'}
 
 
 cut_overview = [35]*400+[5]*600     #Format: 40 cuts for the first 400 /1000 steps, then 20 for the last 600/1000
@@ -1213,7 +1213,7 @@ perlin_mode = 'mixed' #@param ['mixed', 'color', 'gray']
 set_seed = 'random_seed' #@param{type: 'string'}
 eta = 1.0#@param{type: 'number'}
 clamp_grad = True #@param{type: 'boolean'}
-clamp_max = 0.05 #@param{type: 'number'}
+clamp_max = 0.15 #@param{type: 'number'}
 
 
 ### EXTRA ADVANCED SETTINGS:
