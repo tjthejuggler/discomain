@@ -1229,11 +1229,11 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-                         "People stuffed into glass ball:3",
-            "octopus with glass ball head:3",
+                         "People stuffed into bubbles:3",
+            "vicious alien octopus with bubbles:3",
             "by Edward Burne-Jones and Igor Morski:1",
             "Alexander Jansson:3",
-            "joy, happy, fun:-2"
+           
 ]
 
 image_prompts = [ #currently disabled
