@@ -1127,17 +1127,17 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 850  #@param{type: 'number'}
+steps = 650  #@param{type: 'number'}
 width_height = [1280, 768]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
-clip_guidance_scale = 5000 #@param{type: 'number'}
+clip_guidance_scale = 60000 #@param{type: 'number'}
 tv_scale =  150#@param{type: 'number'}
 range_scale =   255#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 8  #@param{type: 'number'}
+cutn_batches = 4  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1229,14 +1229,12 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-        "Beautiful rendering of a complex microscopic microbial wonderland:4",
-        "lots of neon:3",
-        "there are living creatures:4",
+        "crowds of tourists taking photographs:4",
+"a gigantic scultpture of mutant cameras:4",
+"located in a town square",
+"by Edward Burne-Jones and Igor Morski:1",
          "by James Paick:8",
-         "by Alejandro Burdisio:5",
-         "ray tracing with unreal engine:3",
-        "by Edward Burne-Jones and Igor Morski:1",
-        "Alexander Jansson:3"
+         "by Alejandro Burdisio:5"
 ]
 
 image_prompts = [ #currently disabled
