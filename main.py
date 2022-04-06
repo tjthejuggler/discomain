@@ -1229,11 +1229,11 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-              "crowds of tourists taking photographs:4",
-        "a gigantic scultpture of countless cameras surrounded by tourists:4",
-        "located in a town square",
+              "crowds of tourists taking photographs of statue:4",
+        "a gigantic statue of optical illusion  surrounded by tourists:4",
+        "located in a town square:5",
         "sculpture of faces optical illusion:4",
-        "by Edward Burne-Jones and Igor Morski:2",
+        "by Edward Burne-Jones and Igor Morski:4",
         "by James Paick:8",
         "by Alejandro Burdisio:5"
 ]
