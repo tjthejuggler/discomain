@@ -1232,8 +1232,8 @@ text_prompts = [
               "crowds of tourists taking photographs:4",
         "a gigantic scultpture of countless cameras surrounded by tourists:4",
         "located in a town square",
-        "sculpture of faces optical illusion:8",
-        "by Edward Burne-Jones and Igor Morski:1",
+        "sculpture of faces optical illusion:4",
+        "by Edward Burne-Jones and Igor Morski:2",
         "by James Paick:8",
         "by Alejandro Burdisio:5"
 ]
