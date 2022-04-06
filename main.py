@@ -1229,13 +1229,13 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-        "crowd of tourists taking photographs:4",
-"a realistic magical attraction surrounded by tourists:4",
-"located in a town square",
-"faces optical illusions:19",
-"by Zdzisław Beksiński and Igor Morski:6",
-         "by James Paick:8",
-         "by Alejandro Burdisio:5"
+              "crowds of tourists taking photographs:4",
+        "a gigantic scultpture of countless cameras surrounded by tourists:4",
+        "located in a town square",
+        "faces optical illusion:16",
+        "by Edward Burne-Jones and Igor Morski:1",
+        "by James Paick:8",
+        "by Alejandro Burdisio:5"
 ]
 
 image_prompts = [ #currently disabled
