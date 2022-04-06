@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 650  #@param{type: 'number'}
+steps = 450  #@param{type: 'number'}
 width_height = [1280, 768]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1232,7 +1232,7 @@ text_prompts = [
               "crowds of tourists taking photographs:4",
         "a gigantic scultpture of countless cameras surrounded by tourists:4",
         "located in a town square",
-        "faces optical illusion:16",
+        "sculpture of faces optical illusion:8",
         "by Edward Burne-Jones and Igor Morski:1",
         "by James Paick:8",
         "by Alejandro Burdisio:5"
