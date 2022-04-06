@@ -1229,8 +1229,8 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-        "crowds of tourists taking photographs:4",
-"a gigantic scultpture of countless cameras surrounded by tourists:4",
+        "crowd of tourists taking photographs:4",
+"a realistic magical attraction surrounded by tourists:4",
 "located in a town square",
 "by Edward Burne-Jones and Igor Morski:1",
          "by James Paick:8",
