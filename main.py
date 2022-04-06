@@ -1232,6 +1232,7 @@ text_prompts = [
         "crowd of tourists taking photographs:4",
 "a realistic magical attraction surrounded by tourists:4",
 "located in a town square",
+"optical illusion:5",
 "by Edward Burne-Jones and Igor Morski:1",
          "by James Paick:8",
          "by Alejandro Burdisio:5"
