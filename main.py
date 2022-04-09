@@ -942,7 +942,7 @@ diffusion_model = "512x512_diffusion_uncond_finetune_008100" #@param ["256x256_d
 use_secondary_model = True #@param {type: 'boolean'}
 
 timestep_respacing = 'ddim1000' # param ['25','50','100','150','250','500','1000','ddim25','ddim50', 'ddim75', 'ddim100','ddim150','ddim250','ddim500','ddim1000']  
-diffusion_steps = 1000 # param {type: 'number'}
+diffusion_steps = 900 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
@@ -1127,14 +1127,14 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 450  #@param{type: 'number'}
+steps = 1500  #@param{type: 'number'}
 width_height = [1280, 768]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
 clip_guidance_scale = 60000 #@param{type: 'number'}
-tv_scale =  150#@param{type: 'number'}
-range_scale =   255#@param{type: 'number'}
+tv_scale =  0#@param{type: 'number'}
+range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
 cutn_batches = 4  #@param{type: 'number'}
@@ -1211,7 +1211,7 @@ if steps_per_checkpoint is not 0 and intermediates_in_subfolder is True:
 perlin_init = False  #@param{type: 'boolean'}
 perlin_mode = 'mixed' #@param ['mixed', 'color', 'gray']
 set_seed = 'random_seed' #@param{type: 'string'}
-eta = 1.0#@param{type: 'number'}
+eta = 0.1#@param{type: 'number'}
 clamp_grad = True #@param{type: 'boolean'}
 clamp_max = 0.15 #@param{type: 'number'}
 
@@ -1229,13 +1229,11 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-              "crowds of tourists taking photographs of statue:4",
-        "a gigantic statue of optical illusion  surrounded by tourists:4",
-        "located in a town square:5",
-        "sculpture of faces optical illusion:4",
-        "by Edward Burne-Jones and Igor Morski:4",
-        "by James Paick:8",
-        "by Alejandro Burdisio:5"
+            "Crammed into a glass jar is lovingly melted and scorched sculpted light display:2",
+            " a bizarre sculpture collection of guts and emotions:2",
+            "We found room for her heart… on our:1",
+            "outrun:3",
+            "trending on Artstation:6"
 ]
 
 image_prompts = [ #currently disabled
