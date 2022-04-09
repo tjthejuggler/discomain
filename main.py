@@ -1229,11 +1229,10 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-            "Crammed into a glass jar is lovingly melted and scorched sculpted light display:2",
-            " a bizarre sculpture collection of guts and emotions:2",
-            "We found room for her heart… on our:1",
-            "outrun:3",
-            "trending on Artstation:6"
+            "Hyperrealism demonstrated by Mike Hitchcock:7",
+            " Paintings of the Statue of Liberty:1",
+            " later heavily modified into a cyborg:7",
+            "trending on Artstation:9"
 ]
 
 image_prompts = [ #currently disabled
