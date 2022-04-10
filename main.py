@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1500  #@param{type: 'number'}
+steps = 1000  #@param{type: 'number'}
 width_height = [1280, 768]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,10 +1229,10 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-            "Hyperrealism demonstrated by Mike Hitchcock:7",
-            " Paintings of the Statue of Liberty:1",
-            " later heavily modified into a cyborg:7",
-            "trending on Artstation:9"
+            "Someone using a computer that is a portal. by Gaston Bussière:8",
+            "by Zack Snyder:1",
+            "by Karol Bak:8",
+            "trending on Artstation:1"
 ]
 
 image_prompts = [ #currently disabled
@@ -1246,7 +1246,7 @@ image_prompts = [ #currently disabled
 #@title Do the Run!
 
 display_rate = 500#@param{type: 'number'}
-n_batches =  10#@param{type: 'number'}
+n_batches =  100#@param{type: 'number'}
 batch_size = 1
 
 batchNum = len(glob(batchFolder+"/*.txt"))
