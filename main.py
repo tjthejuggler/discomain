@@ -947,8 +947,8 @@ use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = True #@param{type:"boolean"}
-RN50 = False #@param{type:"boolean"}
-RN50x4 = False #@param{type:"boolean"}
+RN50 = True #@param{type:"boolean"}
+RN50x4 = True #@param{type:"boolean"}
 RN50x16 = True #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
@@ -1234,6 +1234,7 @@ text_prompts = [
             "vibrant and detailed:5",
             "by Zack Snyder:1",
             "by Karol Bak:8",
+            "text:-3",
             "trending on Artstation:1"
 ]
 
