@@ -947,9 +947,9 @@ use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = True #@param{type:"boolean"}
-RN50 = False #@param{type:"boolean"}
+RN50 = True #@param{type:"boolean"}
 RN50x4 = True #@param{type:"boolean"}
-RN50x16 = False #@param{type:"boolean"}
+RN50x16 = True #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
 
@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 600  #@param{type: 'number'}
+steps = 1600  #@param{type: 'number'}
 width_height = [2560, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1137,7 +1137,7 @@ tv_scale =  0#@param{type: 'number'}
 range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 4  #@param{type: 'number'}
+cutn_batches = 8  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1211,7 +1211,7 @@ if steps_per_checkpoint is not 0 and intermediates_in_subfolder is True:
 perlin_init = False  #@param{type: 'boolean'}
 perlin_mode = 'mixed' #@param ['mixed', 'color', 'gray']
 set_seed = 'random_seed' #@param{type: 'string'}
-eta = 0.1#@param{type: 'number'}
+eta = 1.0#@param{type: 'number'}
 clamp_grad = True #@param{type: 'boolean'}
 clamp_max = 0.15 #@param{type: 'number'}
 
@@ -1229,13 +1229,13 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-            "Someone sexy using a computer that is a portal:8",
-            "by Gaston Bussière:5",
-            "long wavy dark hair:5",
+            "Someone woman using a computer that is a portal:8",
+            "by Gaston Bussière:6",
+            "long wavy hair:5",
             "vibrant and detailed:5",
             "by Zack Snyder:1",
-            "by Karol Bak:8",
-            "text:-4",
+            "by Karol Bak:7",
+            "text:-7",
             "trending on Artstation:1"
 ]
 
