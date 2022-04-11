@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 500  #@param{type: 'number'}
+steps = 800  #@param{type: 'number'}
 width_height = [2560, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1232,6 +1232,7 @@ text_prompts = [
             "Someone woman using a computer that is a portal:8",
             "by Gaston Bussière:6",
             "long wavy hair:5",
+            "glowing eyes",
             "vibrant and detailed:5",
             "by Zack Snyder:1",
             "by Karol Bak:7",
