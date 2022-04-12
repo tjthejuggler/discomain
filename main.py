@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 600  #@param{type: 'number'}
+steps = 1000  #@param{type: 'number'}
 width_height = [2560, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1234,6 +1234,7 @@ text_prompts = [
             "horror and organic detail; born out of a vivid dream the creator had:7",
             "by Johfra Bosschart:5",
             "cottagecore:8",
+            "rendered on 4k unreal engine:5",
             "trending on Artstation:3"
 ]
 
