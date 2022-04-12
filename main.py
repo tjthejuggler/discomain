@@ -1229,17 +1229,16 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-            "Someone using a computer that is a portal:8",
-            "Turkish feminine with wavy brown hair:5"
-            "by Gaston Bussière:6",
-            "realistic dark brown eyes:6",
-            "vibrant and detailed:5",
-            "by Zack Snyder:1",
-            "by Karol Bak:8",
+            "a trippy fusion of 3d and 2d camera work : scenes seem to explode:7",
+            "shatter with geometric and frictional surface elements:7",
+            "like in an early works of jose:10:4",
+            "colored pencil art:9",
+            "by Karol Bak:5",
+            "by Marianne North:2",
+            "by Caravaggio:2",
+            "blueprint:10",
             "text:-9",
-            "words:-9",
-            "optical illusion:5",
-            "trending on Artstation:1"
+            "words:-9"
 ]
 
 image_prompts = [ #currently disabled
