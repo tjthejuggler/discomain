@@ -947,8 +947,8 @@ use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = True #@param{type:"boolean"}
-RN50 = True #@param{type:"boolean"}
-RN50x4 = True #@param{type:"boolean"}
+RN50 = False #@param{type:"boolean"}
+RN50x4 = False #@param{type:"boolean"}
 RN50x16 = True #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1500  #@param{type: 'number'}
+steps = 800  #@param{type: 'number'}
 width_height = [2560, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1136,7 +1136,7 @@ clip_guidance_scale = 60000 #@param{type: 'number'}
 tv_scale =  0#@param{type: 'number'}
 range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
-cutn = 16  #param{type: 'number'}
+cutn = 32  #param{type: 'number'}
 cutn_batches = 6  #@param{type: 'number'}
 
 #@markdown ---
@@ -1232,11 +1232,13 @@ text_prompts = [
             "Someone using a computer that is a portal:8",
             "Turkish feminine with wavy brown hair:5"
             "by Gaston Bussière:6",
-            "realistic piercing brown eyes:6",
+            "realistic dark brown eyes:6",
             "vibrant and detailed:5",
             "by Zack Snyder:1",
             "by Karol Bak:8",
             "text:-9",
+            "words:-9",
+            "optical illusion:5",
             "trending on Artstation:1"
 ]
 
