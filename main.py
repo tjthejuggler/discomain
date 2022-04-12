@@ -1235,7 +1235,6 @@ text_prompts = [
             "by Johfra Bosschart:5",
             "cottagecore:8",
             "rendered on 4k unreal engine:5",
-            "trending on Artstation:3"
 ]
 
 image_prompts = [ #currently disabled
