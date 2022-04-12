@@ -1230,10 +1230,10 @@ rand_mag = 0.05
 # %%
 text_prompts = [
             "an unusual combination of high tech:5",
-            "fantasy:5",
+            "ultra realistic fantasy:6",
             "horror and organic detail; born out of a vivid dream the creator had:7",
             "by Johfra Bosschart:5",
-            "cottagecore:3",
+            "cottagecore:8",
             "trending on Artstation:3"
 ]
 
