@@ -948,8 +948,8 @@ ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = True #@param{type:"boolean"}
 RN50 = False #@param{type:"boolean"}
-RN50x4 = False #@param{type:"boolean"}
-RN50x16 = True #@param{type:"boolean"}
+RN50x4 = True #@param{type:"boolean"}
+RN50x16 = False #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
 
@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 800  #@param{type: 'number'}
+steps = 600  #@param{type: 'number'}
 width_height = [2560, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1136,7 +1136,7 @@ clip_guidance_scale = 60000 #@param{type: 'number'}
 tv_scale =  0#@param{type: 'number'}
 range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
-cutn = 32  #param{type: 'number'}
+cutn = 16  #param{type: 'number'}
 cutn_batches = 6  #@param{type: 'number'}
 
 #@markdown ---
@@ -1229,16 +1229,12 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-            "a trippy fusion of 3d and 2d camera work : scenes seem to explode:7",
-            "shatter with geometric and frictional surface elements:7",
-            "like in an early works of jose:10:4",
-            "colored pencil art:9",
-            "by Karol Bak:5",
-            "by Marianne North:2",
-            "by Caravaggio:2",
-            "blueprint:10",
-            "text:-9",
-            "words:-9"
+            "an unusual combination of high tech:5",
+            "fantasy:5",
+            "horror and organic detail; born out of a vivid dream the creator had:7",
+            "by Johfra Bosschart:5",
+            "cottagecore:3",
+            "trending on Artstation:3"
 ]
 
 image_prompts = [ #currently disabled
