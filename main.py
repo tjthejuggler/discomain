@@ -1229,11 +1229,12 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-            "an unusual combination of hand drawn art and 3D:4",
-            " Art in space and water:4",
+           "an unusual combination of hand drawn art and 3D:4",
+            "metallic and reflexive surfaces:5",
+            "faces in space and water:4",
             "by Rembrandt van Rijn:1",
             "by Clyde Caldwell:6",
-            "rendered in 4k for Nvidia:6"
+            "rendered in 4k for Nvidia:6",
 ]
 
 image_prompts = [ #currently disabled
