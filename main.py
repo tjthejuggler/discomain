@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 600  #@param{type: 'number'}
-width_height = [2560, 1440]#@param{type: 'raw'}
+steps = 1100  #@param{type: 'number'}
+width_height = [2100, 2100]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1137,7 +1137,7 @@ tv_scale =  0#@param{type: 'number'}
 range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 4  #@param{type: 'number'}
+cutn_batches = 6  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "a filthy slut being punished in Vegas:9", "Illustrator:2","narrative realism:2","4k result:5","graffiti:2","anime:5","(1962) directed by cinematography by:3"
+          "a thought-provoking combination of 3D and matte painting about a futuristic:10", "Asian city:7","abstract illusionism:2","ultra HD:5","by H.P. Lovecraft:3","by John Berkey:6","still life:9"
 ]
 
 image_prompts = [ #currently disabled
