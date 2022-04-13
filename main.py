@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "a filthy slut being fucked by the butt orgy:20","ultra HD:2","60s kitsch and psychedelia:4","fresco:6","tattoo:3","photorealism:24"
+          "a filthy slut being punished in Vegas:9", "Illustrator:2","narrative realism:2","4k result:5","graffiti:2","anime:5","(1962) directed by cinematography by:3"
 ]
 
 image_prompts = [ #currently disabled
