@@ -942,14 +942,14 @@ diffusion_model = "512x512_diffusion_uncond_finetune_008100" #@param ["256x256_d
 use_secondary_model = True #@param {type: 'boolean'}
 
 timestep_respacing = 'ddim1000' # param ['25','50','100','150','250','500','1000','ddim25','ddim50', 'ddim75', 'ddim100','ddim150','ddim250','ddim500','ddim1000']  
-diffusion_steps = 900 # param {type: 'number'}
+diffusion_steps = 1500 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = True #@param{type:"boolean"}
 RN50 = False #@param{type:"boolean"}
 RN50x4 = True #@param{type:"boolean"}
-RN50x16 = False #@param{type:"boolean"}
+RN50x16 = True #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
 
