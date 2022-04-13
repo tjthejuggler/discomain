@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 400  #@param{type: 'number'}
+steps = 800  #@param{type: 'number'}
 width_height = [2560, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1137,7 +1137,7 @@ tv_scale =  0#@param{type: 'number'}
 range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 6  #@param{type: 'number'}
+cutn_batches = 8  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1231,6 +1231,7 @@ rand_mag = 0.05
 text_prompts = [
            "an unusual combination of hand drawn art and 3D:4",
             "metallic and reflexive surfaces:5",
+            "an optical illusion of faces:9",
             "faces in space and water:4",
             "by Rembrandt van Rijn:1",
             "by Clyde Caldwell:6",
