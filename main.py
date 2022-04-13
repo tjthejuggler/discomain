@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "a filthy slut being bedazzled:6","airbrush art:6","androgynous:3","futuresynth:7","Lovecraftian:1","Storybook illustration:8"
+          "a filthy slut being fucked by the butt orgy:20","ultra HD:2","60s kitsch and psychedelia:4","fresco:6","tattoo:3","photorealism:24"
 ]
 
 image_prompts = [ #currently disabled
