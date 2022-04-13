@@ -942,7 +942,7 @@ diffusion_model = "512x512_diffusion_uncond_finetune_008100" #@param ["256x256_d
 use_secondary_model = True #@param {type: 'boolean'}
 
 timestep_respacing = 'ddim1000' # param ['25','50','100','150','250','500','1000','ddim25','ddim50', 'ddim75', 'ddim100','ddim150','ddim250','ddim500','ddim1000']  
-diffusion_steps = 1500 # param {type: 'number'}
+diffusion_steps = 900 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1000  #@param{type: 'number'}
+steps = 400  #@param{type: 'number'}
 width_height = [2560, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,12 +1229,11 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-            "an unusual combination of high tech:5",
-            "ultra realistic fantasy:6",
-            "horror and organic detail; born out of a vivid dream the creator had:7",
-            "by Johfra Bosschart:5",
-            "cottagecore:8",
-            "rendered on 4k unreal engine:5",
+            "an unusual combination of hand drawn art and 3D:4",
+            " Art in space and water:4",
+            "by Rembrandt van Rijn:1",
+            "by Clyde Caldwell:6",
+            "rendered in 4k for Nvidia:6"
 ]
 
 image_prompts = [ #currently disabled
