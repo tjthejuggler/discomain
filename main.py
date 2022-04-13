@@ -948,8 +948,8 @@ ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = True #@param{type:"boolean"}
 RN50 = False #@param{type:"boolean"}
-RN50x4 = True #@param{type:"boolean"}
-RN50x16 = False #@param{type:"boolean"}
+RN50x4 = False #@param{type:"boolean"}
+RN50x16 = True #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
 
@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1100  #@param{type: 'number'}
-width_height = [2100, 2100]#@param{type: 'raw'}
+steps = 600  #@param{type: 'number'}
+width_height = [2560, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1211,7 +1211,7 @@ if steps_per_checkpoint is not 0 and intermediates_in_subfolder is True:
 perlin_init = False  #@param{type: 'boolean'}
 perlin_mode = 'mixed' #@param ['mixed', 'color', 'gray']
 set_seed = 'random_seed' #@param{type: 'string'}
-eta = 1.0#@param{type: 'number'}
+eta = 0.1#@param{type: 'number'}
 clamp_grad = True #@param{type: 'boolean'}
 clamp_max = 0.15 #@param{type: 'number'}
 
@@ -1229,7 +1229,12 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "a thought-provoking combination of 3D and matte painting about a futuristic:10", "Asian city:7","abstract illusionism:2","ultra HD:5","by H.P. Lovecraft:3","by John Berkey:6","still life:9"
+        "Someone sexy using a computer that is a portal. by Gaston Bussière:8",
+        "long flowing blue dress and dark hair:6",
+        "vibrant and detailed:5",
+        "by Zack Snyder:1",
+        "by Karol Bak:8",
+        "trending on Artstation:1"
 ]
 
 image_prompts = [ #currently disabled
