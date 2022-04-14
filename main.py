@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 600  #@param{type: 'number'}
-width_height = [2560, 1440]#@param{type: 'raw'}
+steps = 1500  #@param{type: 'number'}
+width_height = [2100, 2100]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1181,7 +1181,7 @@ createPath(batchFolder)
 # %%
 #@markdown ####**Saving:**
 
-intermediate_saves = 5#@param{type: 'raw'}
+intermediate_saves = 0#@param{type: 'raw'}
 intermediates_in_subfolder = True #@param{type: 'boolean'}
 #@markdown Intermediate steps will save a copy at your specified intervals. You can either format it as a single integer or a list of specific steps 
 
@@ -1229,11 +1229,11 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-        "Someone beautiful girl using a computer that is a portal. by Gaston Bussière:8",
-        "girl is wearing a flowing blue dress:7",
-        "girl has dark hair:6",
-        "vibrant and detailed:5",
-        "by Zack Snyder:1",
+        "Someone woman using a laptop that is a portal. by Gaston Bussière:13",
+        "woman is wearing a long blue dress:10",
+        "woman has dark hair:5",
+        "vibrant and detailed:6",
+        "by Zack Snyder:2",
         "by Karol Bak:8",
         "trending on Artstation:1"
 ]
