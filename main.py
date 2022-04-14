@@ -947,8 +947,8 @@ use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = True #@param{type:"boolean"}
-RN50 = False #@param{type:"boolean"}
-RN50x4 = False #@param{type:"boolean"}
+RN50 = True #@param{type:"boolean"}
+RN50x4 = True #@param{type:"boolean"}
 RN50x16 = True #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1500  #@param{type: 'number'}
-width_height = [2100, 2100]#@param{type: 'raw'}
+steps = 600  #@param{type: 'number'}
+width_height = [2560, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1137,7 +1137,7 @@ tv_scale =  0#@param{type: 'number'}
 range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 8  #@param{type: 'number'}
+cutn_batches = 4  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1230,7 +1230,7 @@ rand_mag = 0.05
 # %%
 text_prompts = [
         "Someone woman using a laptop that is a portal. by Gaston Bussière:13",
-        "woman is wearing a long blue dress:10",
+        "woman is wearing a full length blue robe:10",
         "woman has dark hair:5",
         "vibrant and detailed:6",
         "by Zack Snyder:2",
