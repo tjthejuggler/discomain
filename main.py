@@ -1137,7 +1137,7 @@ tv_scale =  0#@param{type: 'number'}
 range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 6  #@param{type: 'number'}
+cutn_batches = 8  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1229,8 +1229,9 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-        "Someone sexy using a computer that is a portal. by Gaston Bussière:8",
-        "long flowing blue dress and dark hair:6",
+        "Someone beautiful girl using a computer that is a portal. by Gaston Bussière:8",
+        "girl is wearing a flowing blue dress:7",
+        "girl has dark hair:6",
         "vibrant and detailed:5",
         "by Zack Snyder:1",
         "by Karol Bak:8",
