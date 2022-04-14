@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 600  #@param{type: 'number'}
+steps = 1000  #@param{type: 'number'}
 width_height = [2560, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1137,7 +1137,7 @@ tv_scale =  0#@param{type: 'number'}
 range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 4  #@param{type: 'number'}
+cutn_batches = 6  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1232,11 +1232,12 @@ text_prompts = [
         "Someone woman using a laptop that is a portal. by Gaston Bussière:13",
         "woman is wearing a full length blue blanket:10",
         "woman has dark hair:5",
-        "the word HATICE:10",
+        "the word HATICE:20",
         "vibrant and detailed:6",
         "by Zack Snyder:2",
         "by Karol Bak:8",
-        "trending on Artstation:1"
+        "trending on Artstation:1",
+        "number:-12",
 ]
 
 image_prompts = [ #currently disabled
