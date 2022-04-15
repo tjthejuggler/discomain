@@ -942,7 +942,7 @@ diffusion_model = "512x512_diffusion_uncond_finetune_008100" #@param ["256x256_d
 use_secondary_model = True #@param {type: 'boolean'}
 
 timestep_respacing = 'ddim1000' # param ['25','50','100','150','250','500','1000','ddim25','ddim50', 'ddim75', 'ddim100','ddim150','ddim250','ddim500','ddim1000']  
-diffusion_steps = 1500 # param {type: 'number'}
+diffusion_steps = 1000 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
@@ -1137,7 +1137,7 @@ tv_scale =  0#@param{type: 'number'}
 range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 8  #@param{type: 'number'}
+cutn_batches = 4  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1229,15 +1229,14 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-        "Someone woman using a laptop computer that is a portal:13",
-        "by Gaston Bussière:9",
-        "woman is wearing a full length blue blanket:10",
-        "the word 'HATICE':30",
-        "vibrant and detailed:6",
-        "by Zack Snyder:2",
-        "by Karol Bak:8",
-        "trending on Artstation:1",
-        "number:-12",
+            "a thought-provoking combination of a universe in your mind:15",
+            "that stimulates the imagination and shapes your reality a thought-provoking combination of a universe in your mind:5",
+            "made of paperclips:7",
+            "Rendered in Maya:7",
+            "by Ilya Kuvshinov:7",
+            "pencil sketch:3",
+            "vaporwave:4"
+            "number:-12",
 ]
 
 image_prompts = [ #currently disabled
