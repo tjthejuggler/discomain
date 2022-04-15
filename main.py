@@ -1237,6 +1237,8 @@ text_prompts = [
             "pencil sketch:3",
             "vaporwave:14",
             "number:-12",
+            "humanoid:8",
+            "abstract:-6",
 ]
 
 image_prompts = [ #currently disabled
