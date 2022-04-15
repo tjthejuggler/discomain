@@ -1230,12 +1230,12 @@ rand_mag = 0.05
 # %%
 text_prompts = [
             "a thought-provoking combination of a universe in your mind:15",
-            "that stimulates the imagination and shapes your reality a thought-provoking combination of a universe in your mind:5",
-            "made of paperclips:7",
+            "that stimulates the imagination and shapes your reality:5",
+            "made of paperclips and hair:15",
             "Rendered in Maya:7",
             "by Ilya Kuvshinov:7",
             "pencil sketch:3",
-            "vaporwave:4"
+            "vaporwave:14",
             "number:-12",
 ]
 
