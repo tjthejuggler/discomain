@@ -942,7 +942,7 @@ diffusion_model = "512x512_diffusion_uncond_finetune_008100" #@param ["256x256_d
 use_secondary_model = True #@param {type: 'boolean'}
 
 timestep_respacing = 'ddim1000' # param ['25','50','100','150','250','500','1000','ddim25','ddim50', 'ddim75', 'ddim100','ddim150','ddim250','ddim500','ddim1000']  
-diffusion_steps = 900 # param {type: 'number'}
+diffusion_steps = 1500 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
@@ -1229,10 +1229,10 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-        "Someone woman using a laptop that is a portal. by Gaston Bussière:13",
+        "Someone woman using a laptop computer that is a portal:13",
+        "by Gaston Bussière:9",
         "woman is wearing a full length blue blanket:10",
-        "woman has dark hair:5",
-        "the word HATICE:20",
+        "the word 'HATICE':30",
         "vibrant and detailed:6",
         "by Zack Snyder:2",
         "by Karol Bak:8",
