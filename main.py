@@ -946,7 +946,7 @@ diffusion_steps = 1000 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
-RN101 = False #@param{type:"boolean"}
+RN101 = True #@param{type:"boolean"}
 RN50 = True #@param{type:"boolean"}
 RN50x4 = False #@param{type:"boolean"}
 RN50x16 = False #@param{type:"boolean"}
@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 500  #@param{type: 'number'}
+steps = 650  #@param{type: 'number'}
 width_height = [1440, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,7 +1229,9 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "a 3d rendering of a cat wearing a vest, trending on artstation",
+          "a 3d rendering of a cat wearing a vest:3",
+          "trending on artstation:3",
+          "abstract:-4",
 ]
 
 image_prompts = [ #currently disabled
