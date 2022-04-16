@@ -946,10 +946,10 @@ diffusion_steps = 1000 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
-RN101 = True #@param{type:"boolean"}
-RN50 = False #@param{type:"boolean"}
+RN101 = False #@param{type:"boolean"}
+RN50 = True #@param{type:"boolean"}
 RN50x4 = False #@param{type:"boolean"}
-RN50x16 = True #@param{type:"boolean"}
+RN50x16 = False #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
 
@@ -1128,7 +1128,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
 steps = 500  #@param{type: 'number'}
-width_height = [2560, 1440]#@param{type: 'raw'}
+width_height = [1440, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1229,11 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "a world where everything is miniature:3",
-          "by Jim Burns:3",
-	  "humanoid animal:4",
-          "abstract:-4",
-          "optical illusion:7",
+          "a cat in a vest",
 ]
 
 image_prompts = [ #currently disabled
