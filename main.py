@@ -1229,9 +1229,8 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "a photo of a real cat wearing a fancy suit vest:5",
-          "by Andy Warhol:4",
-          "abstract:-7",
+          "the Presidents of the United States:5",
+          "by Hieronymus Bosch:5",
 ]
 
 image_prompts = [ #currently disabled
