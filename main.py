@@ -1229,12 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-            "someone juggling orbs that are portals to other worlds:7",
-            "glitch art:9",
-            "by Peter Mohrbacher:8",
-            "street art:9",
-            "Associated Press photo:4",
-            "by Leonardo da Vinci:6",
+          "a world where everything is miniature, by Jim Burns"
 ]
 
 image_prompts = [ #currently disabled
