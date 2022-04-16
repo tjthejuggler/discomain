@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1500  #@param{type: 'number'}
+steps = 500  #@param{type: 'number'}
 width_height = [2560, 1440]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1231,13 +1231,13 @@ rand_mag = 0.05
 text_prompts = [
             "a thought-provoking combination of a universe in your mind:15",
             "that stimulates the imagination and shapes your reality:5",
-            "made of paperclips and hair:15",
-            "Rendered in Maya:7",
+            "made of paperclips and hair:5",
+            "Rendered in Maya:17",
             "by Ilya Kuvshinov:7",
             "pencil sketch:3",
             "vaporwave:14",
             "number:-12",
-            "humanoid:8",
+            "humanoid:48",
             "abstract:-6",
 ]
 
