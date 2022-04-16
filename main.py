@@ -1229,9 +1229,8 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "a 3d rendering of a single cat wearing a vest:3",
-          "by Jim Burns:5",
-          "trending on artstation:3",
+          "a photo of a real cat wearing a fancy suit vest:5",
+          "by Andy Warhol:4",
           "abstract:-7",
 ]
 
