@@ -1229,9 +1229,10 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "a 3d rendering of a cat wearing a vest:3",
+          "a 3d rendering of a single cat wearing a vest:3",
+          "by Jim Burns:5",
           "trending on artstation:3",
-          "abstract:-4",
+          "abstract:-7",
 ]
 
 image_prompts = [ #currently disabled
