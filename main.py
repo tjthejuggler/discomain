@@ -1211,7 +1211,7 @@ if steps_per_checkpoint is not 0 and intermediates_in_subfolder is True:
 perlin_init = False  #@param{type: 'boolean'}
 perlin_mode = 'mixed' #@param ['mixed', 'color', 'gray']
 set_seed = 'random_seed' #@param{type: 'string'}
-eta = 0.1#@param{type: 'number'}
+eta = 1.0 #@param{type: 'number'}
 clamp_grad = True #@param{type: 'boolean'}
 clamp_max = 0.15 #@param{type: 'number'}
 
@@ -1229,7 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "a cat in a vest",
+          "a 3d rendering of a cat wearing a vest, trending on artstation",
 ]
 
 image_prompts = [ #currently disabled
