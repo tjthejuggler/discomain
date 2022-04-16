@@ -1229,16 +1229,12 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-            "a thought-provoking combination of a universe in your mind:15",
-            "that stimulates the imagination and shapes your reality:5",
-            "made of paperclips and hair:5",
-            "Rendered in Maya:17",
-            "by Ilya Kuvshinov:7",
-            "pencil sketch:3",
-            "vaporwave:14",
-            "number:-12",
-            "humanoid:48",
-            "abstract:-6",
+            "someone juggling orbs that are portals to other worlds:7",
+            "glitch art:9",
+            "by Peter Mohrbacher:8",
+            "street art:9",
+            "Associated Press photo:4",
+            "by Leonardo da Vinci:6",
 ]
 
 image_prompts = [ #currently disabled
