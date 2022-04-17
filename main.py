@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 650  #@param{type: 'number'}
-width_height = [1440, 1440]#@param{type: 'raw'}
+steps = 1050  #@param{type: 'number'}
+width_height = [1600, 900]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1137,7 +1137,7 @@ tv_scale =  0#@param{type: 'number'}
 range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 4  #@param{type: 'number'}
+cutn_batches = 8  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1229,9 +1229,14 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "famous cartoon characters:5",
-          "Andy Warhol:5",
-          "by Hieronymus Bosch:5",
+        "Someone woman using a large laptop that is a portal. by Gaston Bussière:13",
+        "there is a large bright yellow banana:13",
+        "woman is wearing a full length blue blanket:10",
+        "woman has dark hair:5",
+        "vibrant and detailed humanoid picture:6",
+        "by Zack Snyder:2",
+        "by Karol Bak:8",
+        "trending on Artstation:1"
 ]
 
 image_prompts = [ #currently disabled
