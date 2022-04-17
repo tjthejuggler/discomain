@@ -1229,8 +1229,8 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "famous historical figures:5",
-          "Rube Goldberg machine:5",
+          "future tech cyberpunk scifi:5",
+          "beautiful landscape painting:5",
           "by Hieronymus Bosch:5",
 ]
 
