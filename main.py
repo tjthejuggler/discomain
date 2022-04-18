@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 550  #@param{type: 'number'}
+steps = 250  #@param{type: 'number'}
 width_height = [1600, 900]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
