@@ -946,10 +946,10 @@ diffusion_steps = 1000 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
-RN101 = True #@param{type:"boolean"}
+RN101 = False #@param{type:"boolean"}
 RN50 = True #@param{type:"boolean"}
 RN50x4 = False #@param{type:"boolean"}
-RN50x16 = False #@param{type:"boolean"}
+RN50x16 = True #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
 
@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 450  #@param{type: 'number'}
-width_height = [1600, 900]#@param{type: 'raw'}
+steps = 900  #@param{type: 'number'}
+width_height = [2100, 2100]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
