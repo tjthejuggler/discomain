@@ -1232,6 +1232,7 @@ text_prompts = [
           
  "deep art gallery room:2", 
   "a variety of colorful art:2",
+   "dark forces loom:4",
    "Seb McKinnon:3"
 
 ]
