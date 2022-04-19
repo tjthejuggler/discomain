@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 900  #@param{type: 'number'}
+steps = 450  #@param{type: 'number'}
 width_height = [2100, 2100]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,13 +1229,11 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          
- "art gallery room with depth:2",
- "a long hall:3", 
+          "massive indoor open hall art gallery:4", 
+ "sculptures and paintings:3",
   "a variety of colorful art:2",
-   "dark forces loom:4",
-   "Seb McKinnon:3"
-
+   "Seb McKinnon:3",
+   "Zdzisław Beksiński:6",
 ]
 
 image_prompts = [ #currently disabled
