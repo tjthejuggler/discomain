@@ -1229,7 +1229,9 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-            "Someone using a computer that is a portal. by Gaston Bussière:8",
+            "A couple kissing with fire in the background:8",
+            "by Gaston Bussière:8",
+           "woman wearing blue blanket:8",
             "by Zack Snyder:1",
             "by Karol Bak:8",
             "trending on Artstation:1"
