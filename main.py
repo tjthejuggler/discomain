@@ -948,10 +948,10 @@ ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
 RN101 = True #@param{type:"boolean"}
 RN50 = True #@param{type:"boolean"}
-RN50x4 = True #@param{type:"boolean"}
-RN50x16 = True #@param{type:"boolean"}
-SLIPB16 = True #@param{type:"boolean"}
-SLIPL16 = True #@param{type:"boolean"}
+RN50x4 = False #@param{type:"boolean"}
+RN50x16 = False #@param{type:"boolean"}
+SLIPB16 = False #@param{type:"boolean"}
+SLIPL16 = False #@param{type:"boolean"}
 
 #@markdown If you're having issues with model downloads, check this to compare SHA's:
 check_model_SHA = False #@param{type:"boolean"}
@@ -1229,12 +1229,11 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-            "A couple kissing with fire in the background:8",
-            "by Gaston Bussière:8",
-           "woman wearing blue blanket:8",
-            "by Zack Snyder:1",
-            "by Karol Bak:8",
-            "trending on Artstation:1"
+          
+ "deep art gallery room:2", 
+  "a variety of colorful art:2",
+   "Seb McKinnon:3"
+
 ]
 
 image_prompts = [ #currently disabled
