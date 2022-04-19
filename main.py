@@ -1230,7 +1230,8 @@ rand_mag = 0.05
 # %%
 text_prompts = [
           
- "deep art gallery room:2", 
+ "art gallery room with depth:2",
+ "a long hall:3", 
   "a variety of colorful art:2",
    "dark forces loom:4",
    "Seb McKinnon:3"
