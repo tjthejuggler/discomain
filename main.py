@@ -951,7 +951,7 @@ RN50 = True #@param{type:"boolean"}
 RN50x4 = False #@param{type:"boolean"}
 RN50x16 = True #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
-SLIPL16 = False #@param{type:"boolean"}
+SLIPL16 = True #@param{type:"boolean"}
 
 #@markdown If you're having issues with model downloads, check this to compare SHA's:
 check_model_SHA = False #@param{type:"boolean"}
@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 450  #@param{type: 'number'}
+steps = 1450  #@param{type: 'number'}
 width_height = [2100, 2100]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1229,11 +1229,11 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "massive indoor open hall art gallery:4", 
- "sculptures and paintings:3",
+          "massive indoor open room art gallery:7", 
+ "sculptures and paintings and tourists:4",
   "a variety of colorful art:2",
-   "Seb McKinnon:3",
-   "Zdzisław Beksiński:6",
+   "Seb McKinnon:7",
+   "Zdzisław Beksiński:4",
 ]
 
 image_prompts = [ #currently disabled
