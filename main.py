@@ -951,7 +951,7 @@ RN50 = True #@param{type:"boolean"}
 RN50x4 = False #@param{type:"boolean"}
 RN50x16 = True #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
-SLIPL16 = True #@param{type:"boolean"}
+SLIPL16 = False #@param{type:"boolean"}
 
 #@markdown If you're having issues with model downloads, check this to compare SHA's:
 check_model_SHA = False #@param{type:"boolean"}
@@ -1229,9 +1229,8 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-          "massive indoor open room art gallery:7", 
- "a wide variety of styles of paintings:4",
-  "a variety of colorful art:2",
+     "a Minion in Turkey:8",
+   "featured on Artstation:5",
    "Seb McKinnon:7",
    "Jim Burns:4",
 ]
