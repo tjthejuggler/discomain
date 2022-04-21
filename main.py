@@ -1230,10 +1230,10 @@ rand_mag = 0.05
 # %%
 text_prompts = [
           "massive indoor open room art gallery:7", 
- "sculptures and paintings and tourists:4",
+ "a wide variety of styles of paintings:4",
   "a variety of colorful art:2",
    "Seb McKinnon:7",
-   "Zdzisław Beksiński:4",
+   "Jim Burns:4",
 ]
 
 image_prompts = [ #currently disabled
