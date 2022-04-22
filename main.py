@@ -1229,9 +1229,9 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-     "Minions visitting Turkey:8",
-   "featured on Artstation:5",
-   "Jim Burns:4",
+   "hyperrealistic Minnions visiting Turkey:8",
+   "by Pixar:5",
+   "by Disney:4",
 ]
 
 image_prompts = [ #currently disabled
