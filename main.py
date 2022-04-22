@@ -1229,9 +1229,8 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-   "hyperrealistic Minnions visiting Turkey:8",
-   "by Pixar:5",
-   "by Disney:4",
+   "Cartoon Minnion visiting Turkey:8",
+   "VR 3D rendered in Unreal Engine:5"
 ]
 
 image_prompts = [ #currently disabled
