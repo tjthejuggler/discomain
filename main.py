@@ -946,10 +946,10 @@ diffusion_steps = 1000 # param {type: 'number'}
 use_checkpoint = False #@param {type: 'boolean'}
 ViTB32 = True #@param{type:"boolean"}
 ViTB16 = True #@param{type:"boolean"}
-RN101 = False #@param{type:"boolean"}
+RN101 = True #@param{type:"boolean"}
 RN50 = True #@param{type:"boolean"}
 RN50x4 = False #@param{type:"boolean"}
-RN50x16 = True #@param{type:"boolean"}
+RN50x16 = False #@param{type:"boolean"}
 SLIPB16 = False #@param{type:"boolean"}
 SLIPL16 = False #@param{type:"boolean"}
 
@@ -1127,8 +1127,8 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1450  #@param{type: 'number'}
-width_height = [2100, 2100]#@param{type: 'raw'}
+steps = 550  #@param{type: 'number'}
+width_height = [1600, 900]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
 
@@ -1137,7 +1137,7 @@ tv_scale =  0#@param{type: 'number'}
 range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 8  #@param{type: 'number'}
+cutn_batches = 4  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1229,9 +1229,8 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-     "a Minion in Turkey:8",
+     "Minions visitting Turkey:8",
    "featured on Artstation:5",
-   "Seb McKinnon:7",
    "Jim Burns:4",
 ]
 
