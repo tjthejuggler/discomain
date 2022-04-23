@@ -1229,10 +1229,11 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
-        "Someone woman using a large laptop that is a portal. by Gaston Bussière:13",
-        "there is one small bright yellow banana:5",
-        "the word 'HATICE' 'HATICE' 'HATICE' :13",
-        "woman is wearing a full length blue blanket:10",
+        "Someone woman using a large laptop that is a portal.:19",
+        "by Gaston Bussière:13",
+        "the woman has a small bright yellow banana:10",
+        "the word 'HATICE' :23",
+        "woman is wearing a full length blue blanket:15",
         "woman has dark hair:5",
         "vibrant and detailed humanoid picture:6",
         "by Zack Snyder:2",
