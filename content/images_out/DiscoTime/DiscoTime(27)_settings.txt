@@ -1,10 +1,17 @@
 {
     "text_prompts": [
+<<<<<<< HEAD
         "Someone woman using a large laptop that is a portal.:19",
         "by Gaston Bussière:13",
         "the woman has a small bright yellow banana:10",
         "the word 'HATICE' :23",
         "woman is wearing a full length blue blanket:15",
+=======
+        "Someone woman using a large laptop that is a portal. by Gaston Bussière:13",
+        "there is one small bright yellow banana:5",
+        "the word 'HATICE' 'HATICE' 'HATICE' :13",
+        "woman is wearing a full length blue blanket:10",
+>>>>>>> 833330223ea5c5688547c73ae9e2d162ca307cea
         "woman has dark hair:5",
         "vibrant and detailed humanoid picture:6",
         "by Zack Snyder:2",
@@ -27,7 +34,11 @@
     "clip_denoised": false,
     "clamp_grad": true,
     "clamp_max": 0.15,
+<<<<<<< HEAD
     "seed": 3309193874,
+=======
+    "seed": 664366911,
+>>>>>>> 833330223ea5c5688547c73ae9e2d162ca307cea
     "fuzzy_prompt": false,
     "rand_mag": 0.05,
     "eta": 1.0,
@@ -40,6 +51,11 @@
     "ViTB16": true,
     "RN101": true,
     "RN50": true,
+<<<<<<< HEAD
     "RN50x4": false,
     "RN50x16": false
+=======
+    "RN50x4": true,
+    "RN50x16": true
+>>>>>>> 833330223ea5c5688547c73ae9e2d162ca307cea
 }

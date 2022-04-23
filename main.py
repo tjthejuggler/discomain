@@ -1127,7 +1127,7 @@ lpips_model = lpips.LPIPS(net='vgg').to(device)
 # %%
 #@markdown ####**Basic Settings:**
 batch_name = 'DiscoTime' #@param{type: 'string'}
-steps = 1050  #@param{type: 'number'}
+steps = 550  #@param{type: 'number'}
 width_height = [1600, 900]#@param{type: 'raw'}
 # height = 512#@param{type: 'raw'}
 
@@ -1137,7 +1137,7 @@ tv_scale =  0#@param{type: 'number'}
 range_scale =   150#@param{type: 'number'}
 sat_scale = 0  #@param{type: 'number'}
 cutn = 16  #param{type: 'number'}
-cutn_batches = 8  #@param{type: 'number'}
+cutn_batches = 4  #@param{type: 'number'}
 
 #@markdown ---
 
@@ -1229,6 +1229,7 @@ rand_mag = 0.05
 
 # %%
 text_prompts = [
+
         "Someone woman using a large laptop that is a portal.:19",
         "by Gaston Bussière:13",
         "the woman has a small bright yellow banana:10",
